@@ -1,0 +1,9 @@
+.nav{
+    margin-top: 0;
+}
+.mainHeader{
+    float: left;
+    margin-top: 0;
+}
+.navMenuIcon,.navMenu{  margin-top: 0;padding-right:10px;float: right;}
+.navMenuIcon{ rotate: 90deg;padding:0 10px 0 10px;}
