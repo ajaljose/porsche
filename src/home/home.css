@@ -1,0 +1,102 @@
+/* body, html { height: 90%; } */
+.outer {
+  width: 200px;
+  height: 100%;
+  background: rgb(255, 0, 0);
+    top:0;
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+    z-index: -1;
+    rotate: 45deg;
+  
+}
+.inner {
+  position: absolute;
+  width:100%;
+  height: 100%;
+  background: rgb(255, 0, 0);
+  top: 30%;
+  box-shadow: 0px 0px 30px 20px rgb(241, 52, 52);
+}
+.car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 70px; */
+    height: 90vh;
+  }
+.car img {
+    width: 46%;
+}
+.wrapper {
+    position: relative;
+  }
+  .foreground {
+    position: relative; /* or static */
+    z-index: 1;
+  }
+  .background {
+    position: absolute; /* or fixed */
+    top: -40%;
+    left: 30%;
+    /* width: 100%; */
+    height: 200%;
+    /* background-color: #ccc; */
+    z-index: 0;
+  }
+  .cta {
+    position: relative;
+    /* margin: auto; */
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+   }
+   
+   .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    /* border-radius: 50px; */
+    background: #b1dae7;
+    width: 7px;
+    height: 45px;
+    transition: all 0.3s ease;
+   }
+   
+   .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+   }
+   
+   .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: square;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover:before {
+    width: 100%;
+    background: #b1dae7;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active {
+    transform: scale(0.95);
+   }

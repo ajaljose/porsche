@@ -4,9 +4,10 @@ import logo from '../images/porschelogo.png';
 
 const Navbar = () => {
   return (
-    <div className="nav">
+    <div className="nav foreground">
       <img src={logo} alt="porsche" width="50" height="50" title="PORSCHE"/>
-      <h4 className="navMenu">Menu</h4>
+      <h3 className='prcFont'>TAYCAN TURBO S</h3>
+      <h4 className="navMenu prcFont">Menu</h4>
     </div>
   );
 };
