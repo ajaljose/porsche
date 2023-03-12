@@ -5,5 +5,7 @@
     float: left;
     margin-top: 0;
 }
-.navMenuIcon,.navMenu{  margin-top: 0;padding-right:10px;float: right;}
+.navMenuIcon,.navMenu{ font-size: 20px; margin-top: 0;padding:10px 10px 0 10px;float: right;font-family: 'Comforter Brush', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;}
 .navMenuIcon{ rotate: 90deg;padding:0 10px 0 10px;}
