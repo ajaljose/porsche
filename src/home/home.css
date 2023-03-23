@@ -90,12 +90,16 @@
 
 #year p{
   margin: -50px;
-  opacity: 0.5;
+  opacity: 0.12;
   font-family: "Oswald", sans-serif;
   font-size: 15em;
+  text-shadow: 0 0 48px rgba(0, 0, 0, 1);
 }
 #contact {
   transform: rotate(270deg);
-  margin: 0px 0px 0px -300px;
+  margin: 0px 0px 0px -370px;
   font-size: 25px;
+}
+#contact td {
+  padding-right: 50px;
 }
