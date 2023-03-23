@@ -3,7 +3,9 @@ import './home.css';
 const Home = () => {
   return (
     <div className="car foreground">
-      <table><tr><td><p>20</p></td></tr><tr><td><p>19</p></td></tr></table>
+      <div><table id="contact"><tr><td>about us.</td><td>connect.</td></tr></table></div>
+      
+      <table id="year"><tr><td><p>20</p></td></tr><tr><td><p>19</p></td></tr></table>
       
       
       <img  src={logo} alt="porsche" width="46%"  title="PORSCHE"/>
