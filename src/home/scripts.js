@@ -19,15 +19,7 @@ function Footer() {
         <footer className="footer">
          <div className="container">
              <div className="row">
-                 <div className="footer-col">
-                     <h4>company</h4>
-                     <ul>
-                         <li><p >our services</p></li>
-                         <li>< p>privacy policy</p></li>
-                         <li><p>affiliate program</p></li>
-                         <li><p>about us</p></li>
-                     </ul>
-                 </div>
+                 
                  <div className="footer-col">
                      <h4>get help</h4>
                      <ul>
@@ -40,12 +32,7 @@ function Footer() {
                  
                  <div className="footer-col">
                      <h4>follow us</h4>
-                     <ul>
-                         <li><p>Facebook</p></li>
-                         <li><p>Twitter</p></li>
-                         <li><p>Instagram</p></li>
-                         <li><p>LinkedIn</p></li>
-                     </ul>
+                     
                  </div>
            <div className="footer-col">
                      <h4>Disclaimer</h4>
