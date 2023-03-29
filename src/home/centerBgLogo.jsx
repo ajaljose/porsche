@@ -14,7 +14,7 @@ function centerBgLogo() {
         transform: 'translate(-50%, -50%)',
         zIndex: -1,
         borderRadius: '50%',
-        opacity: '0.1',
+        opacity: '0.17',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',

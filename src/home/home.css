@@ -26,7 +26,7 @@
   /* width: 100%; */
   height: calc(200% - 100px);
   /* background-color: #ccc; */
-  z-index: -1;
+  z-index: -20;
 }
 #bgStrip {
   left: 30%;
