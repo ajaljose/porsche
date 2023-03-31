@@ -1,0 +1,7 @@
+.details {
+    position: relative;
+    top: 100vh; /* or adjust this value as needed */
+    background-color: #f9f9f9;
+    padding: 50px;
+  }
+  

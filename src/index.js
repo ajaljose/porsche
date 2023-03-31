@@ -4,11 +4,13 @@ import './index.css';
 import Navbar from './home/navbar';
 import Home from './home/home.js';
 import CenterBgLogo from './home/centerBgLogo.jsx';
+import Details from './home/details';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar/>
     <Home/>
     <CenterBgLogo/>
+    <Details/>
   </React.StrictMode>
 );
