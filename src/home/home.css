@@ -7,11 +7,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 70px; */
   height: 90vh;
-  position: fixed;
-  /* margin-bottom: 0.5%; */
+  position: relative;
   background-color: #eae2b78a;
+  overflow: hidden; /* Add this to hide content outside the .car div */
 }
 .car img {
   width: 46%;
@@ -31,7 +30,10 @@
   z-index: -20;
 }
 #bgStrip {
+  position: absolute; /* Add this to position the SVG inside .car */
   left: 30%;
+  top: 50%; /* Adjust the top value to position the SVG as desired */
+  transform: translateY(-50%); /* Add this to vertically center the SVG */
 }
 
 #year p{
