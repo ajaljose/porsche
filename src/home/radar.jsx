@@ -4,4 +4,4 @@ const Radar=()=>{
     <span></span>
 </div>;
 }
-export default Details;
+export default Radar;
