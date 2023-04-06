@@ -108,4 +108,5 @@ return (
   )
 }
 
-export default ImageSlider
+export default ImageSlider;
+//https://codepen.io/ajaljose/pen/zYmYRRK
