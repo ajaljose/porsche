@@ -15,6 +15,6 @@ root.render(
     <CenterBgLogo/>
     <Details/>
     <ImageSlider/>
-    <Radar/>
+    {/* <Radar/> */}
   </React.StrictMode>
 );
