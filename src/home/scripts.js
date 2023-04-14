@@ -25,8 +25,6 @@ function Footer() {
                      <ul>
                          <li><p>FAQ</p></li>
                          <li><p>shipping</p></li>
-                         <li><p>returns</p></li>
-                         <li><p>order status</p></li>
                      </ul>
                  </div>
                  
