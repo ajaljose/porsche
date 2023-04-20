@@ -21,6 +21,11 @@ function Footer() {
              <div className="row">
              <div className="footer-col">
                      <h4>Disclaimer</h4>
+                     
+                 <div className="footer-col">
+                     <h4>follow us</h4>
+                     
+                 </div>
                      <p id='Disclaimer'>This site is for educational purposes only!!
   Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as  teaching, education and research etc...</p>
                  </div>
@@ -32,10 +37,6 @@ function Footer() {
                      </ul>
                  </div>
                  
-                 <div className="footer-col">
-                     <h4>follow us</h4>
-                     
-                 </div>
            
              </div>
          <p id='Disclaimer'>Created By Ajal Jose</p>
