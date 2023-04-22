@@ -5,8 +5,6 @@ function App() {
         <Banner/>
         <RowPost url={originals} title='Originals' />
        
-        <Footer/>
-  
       </div>
     );
   }
