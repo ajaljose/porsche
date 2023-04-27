@@ -18,6 +18,8 @@ function Footer() {
              <div className="footer-col">
                      <h4>Disclaimer</h4>
                      
+
+                     
                  <div className="footer-col">
                      <h4>follow us</h4>
                      
