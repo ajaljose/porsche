@@ -1,20 +1,26 @@
 .right-navbar td{border-width: thin;
     padding: 20px;
     text-transform: uppercase;
-    border-style: solid ;
-    border-color: black ;
+    /* border-style: solid ;
+    border-color: black ; */
    
     
 }
+.right-navbar td:hover{
+    background-color: rgba(35, 69, 103, 0.5);
+}
 .right-navbar {
+    padding-top: 55px;
     z-index: 2000;
     position: fixed;
     top: 0;
-    right: -150px;
+    right: -200px;
     bottom: 0;
-    width: 150px; /* adjust this width to your preference */
+    width: 200px; /* adjust this width to your preference */
     background-color: #ffffff; /* change this to the background color you want */
-    box-shadow: 0 2px 5px rgba(53, 52, 52, 0.2); /* add a box shadow for a raised effect */
+    box-shadow: 0 12px 15px rgba(53, 52, 52, 0.8); /* add a box shadow for a raised effect */
   }
 
-  
+  .right-navbar table{
+    width: 100%;
+  }
