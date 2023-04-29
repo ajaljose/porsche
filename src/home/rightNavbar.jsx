@@ -2,7 +2,7 @@ import React from 'react';
 import './rightNavbar.css'
 function rightNavbar() {
   return (
-    <div>
+    <div className="right-navbar">
         <table>
             <tr><td>Settings 1</td></tr>
             <tr><td>Settings 2</td></tr>
