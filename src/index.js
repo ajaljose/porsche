@@ -7,6 +7,7 @@ import CenterBgLogo from './home/centerBgLogo.jsx';
 import Details from './home/details';
 import Radar from './home/radar';
 import ImageSlider from './home/imageSlider';
+import RightNavbar from './home/rightNavbar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ root.render(
     <Home/>
     <CenterBgLogo/>
     <Details/>
+    <RightNavbar/>
     {/* <ImageSlider/> */}
     {/* <Radar/> */}
   </React.StrictMode>
