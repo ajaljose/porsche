@@ -9,6 +9,11 @@ import Radar from './home/radar';
 import ImageSlider from './home/imageSlider';
 import RightNavbar from './home/rightNavbar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const images = [
+  'D:/reactjs/porsche/src/images/porsche.png',
+  'D:/reactjs/porsche/src/images/name.png',
+  'D:/reactjs/porsche/src/images/hamburger.png',
+];
 root.render(
   <React.StrictMode>
     <Navbar/>
@@ -16,7 +21,7 @@ root.render(
     <CenterBgLogo/>
     <Details/>
     <RightNavbar/>
-    {/* <ImageSlider/> */}
+    <ImageSlider images={images}/>
     {/* <Radar/> */}
   </React.StrictMode>
 );
