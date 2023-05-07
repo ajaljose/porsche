@@ -27,7 +27,7 @@ const ImageSlider = ({ images }) => {
       <style jsx>{`
         #imgslider .slider {
           position: relative;
-          height: 400px;
+          height: 600px;
           width: 100%;
           margin: 0 auto;
         }
@@ -40,22 +40,20 @@ const ImageSlider = ({ images }) => {
           object-fit: cover;
           width: 100%;
           height: 100%;
-          transition: all 0.7s ease;
         }
         #imgslider .prev,
         #imgslider .next {
           position: absolute;
           top: 50%;
           transform: translateY(-50%);
-          width: 40px;
           height: 40px;
           border: none;
           background-color: black;
+          box-shadow: 7px 7px 7px lightblue;
           color: white;
           font-size: 24px;
           cursor: pointer;
           z-index: 1;
-          transition: all 0.7s ease;
         }
         #imgslider .prev {
           left: 20px;
