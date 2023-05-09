@@ -8,6 +8,7 @@ import Details from './home/details';
 import Radar from './home/radar';
 import ImageSlider from './home/imageSlider';
 import RightNavbar from './home/rightNavbar';
+import Footer from './home/footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const images = [
   'https://files.porsche.com/filestore/image/middle-east/none/homepage-banner-india/normal/c2e54b1f-9285-11e9-80c4-005056bbdc38/porsche-normal.jpg',
@@ -23,5 +24,6 @@ root.render(
     <RightNavbar/>
     <ImageSlider images={images}/>
     {/* <Radar/> */}
+    <Footer/>
   </React.StrictMode>
 );

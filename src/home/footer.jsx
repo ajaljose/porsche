@@ -1,8 +1,11 @@
 import React from 'react'
-
+// import './footer.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-bootstrap';
 function footer() {
   return (
     <div>
+      {/* <Button variant="primary">Click me</Button> */}
       <footer className="footer">
   	 <div className="container">
   	 	<div className="row">
