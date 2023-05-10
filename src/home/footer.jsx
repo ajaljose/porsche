@@ -31,6 +31,7 @@ function footer() {
   	 		<div className="footer-col">
   	 			<h4>follow us</h4>
   	 			<ul>
+					
   	 				<li><p>Facebook</p></li>
   	 				<li><p>Twitter</p></li>
   	 				<li><p>Instagram</p></li>
