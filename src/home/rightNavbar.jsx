@@ -1,14 +1,17 @@
 import React from 'react';
 import './rightNavbar.css'
-function rightNavbar() {
+function rightNavbar({ page, setPage }) {
+  const handleIncrement = (pages) => {
+    setPage(pages);
+  };
   return (
     <div className="right-navbar">
         <table>
-            <tr><td>Settings 1</td></tr>
+            <tr onClick={() => handleIncrement('home')}><td>Home</td></tr>
             <tr><td>Settings 2</td></tr>
             <tr><td>Settings 3</td></tr>
             <tr><td>Settings 4</td></tr>
-            <tr><td>Settings 5</td></tr> 
+            <tr onClick={() => handleIncrement('about')}><td>About</td></tr> 
             <tr><td onClick={() => {
   const rightNavbar = document.querySelector('.right-navbar');
   rightNavbar.style.right = '-200px';
