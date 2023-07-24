@@ -13,7 +13,7 @@ import About from './about/About';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const images = [
   'https://files.porsche.com/filestore/image/middle-east/none/homepage-banner-india/normal/c2e54b1f-9285-11e9-80c4-005056bbdc38/porsche-normal.jpg',
-  'https://www.hdcarwallpapers.com/walls/porsche_911_carrera_2019_4k-HD.jpg',
+  'https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/24421/718-exterior-left-front-three-quarter-78299.jpeg?q=75',
   'https://files.porsche.com/filestore/image/multimedia/none/ww-rangeshotbanner-front/normal/5fda392c-d2e3-11e9-80c5-005056bbdc38/porsche-normal.jpg',
 ];
 function App() {
@@ -22,6 +22,7 @@ function App() {
     if(page=='about'){
         component=<><Navbar />
         <About/>
+        <CenterBgLogo />
         <RightNavbar page={page} setPage={setPage} />
         <Footer />
         </>;

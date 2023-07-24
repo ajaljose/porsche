@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="nav foreground">
       <img src={logo} alt="porsche" width="50" height="50" title="PORSCHE" />
-      <h3 className="prcFont">TAYCAN TURBO S</h3>
+      <h3 className="prcFont">PORSCHE</h3>
       <h4 className="navMenu prcFont">Menu <img className="settings" src={hamlogo} onClick={() => {
   const rightNavbar = document.querySelector('.right-navbar');
   rightNavbar.style.right = '0';
