@@ -22,7 +22,7 @@ function rightNavbar({ page, setPage }) {
 
             <tr><td>Settings 2</td></tr>
             <tr><td>Settings 3</td></tr>
-            <tr><td><div class="horizontal-align">
+            <tr onClick={() => handleIncrement('gallery')}><td><div class="horizontal-align">
       <img src={gallery} alt="Icon" />
       <span>Gallery</span>
     </div></td></tr>

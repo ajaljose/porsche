@@ -10,6 +10,7 @@ import RightNavbar from './home/rightNavbar';
 import Footer from './home/footer';
 import { useState } from 'react';
 import About from './about/About';
+import Gallery from './gallery/Gallery';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const images = [
   'https://files.porsche.com/filestore/image/middle-east/none/homepage-banner-india/normal/c2e54b1f-9285-11e9-80c4-005056bbdc38/porsche-normal.jpg',
@@ -26,6 +27,13 @@ function App() {
         <RightNavbar page={page} setPage={setPage} />
         <Footer />
         </>;
+    }else if(page=='gallery'){
+      component=<><Navbar />
+      <Gallery/>
+      <CenterBgLogo />
+      <RightNavbar page={page} setPage={setPage} />
+      <Footer />
+      </>;
     }else{
         component = (
             <>
