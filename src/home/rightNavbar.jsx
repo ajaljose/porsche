@@ -14,7 +14,7 @@ function rightNavbar({ page, setPage }) {
             <tr onClick={() => handleIncrement('about')}><td>About</td></tr> 
             <tr><td onClick={() => {
   const rightNavbar = document.querySelector('.right-navbar');
-  rightNavbar.style.right = '-200px';
+  rightNavbar.style.right = '-320px';
   rightNavbar.style.transition = 'right 0.6s ease-in-out'; // adjust the transition duration and timing function to your preference
 }}>Close</td></tr>            
         </table>
