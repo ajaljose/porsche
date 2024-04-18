@@ -1,4 +1,4 @@
-import "./navbar.css";
+import "./css/navbar.css";
 import logo from "../images/porschelogo.png";
 import hamlogo from "../images/hamburger.png";
 // import font from url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Open+Sans&family=Raleway:wght@100&display=swap');

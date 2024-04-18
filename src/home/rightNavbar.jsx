@@ -1,5 +1,5 @@
 import React from 'react';
-import './rightNavbar.css'
+import './css/rightNavbar.css'
 import home from '../images/house.png';
 import close from '../images/close.png'
 import about from '../images/about.png';

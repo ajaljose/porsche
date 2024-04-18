@@ -1,4 +1,4 @@
-import './radar.css';
+import './css/radar.css';
 const Radar=()=>{
     return <div className="loader">
     <span></span>

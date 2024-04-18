@@ -1,5 +1,5 @@
 import logo from '../images/taycanturbos3.png';
-import './home.css';
+import './css/home.css';
 const Home = () => {
   return (
     <div className="car foreground">

@@ -1,4 +1,4 @@
-import './details.css';
+import './css/details.css';
 const Details=()=>{
     return <div className='details prcFont'>
         <h2>About</h2>
