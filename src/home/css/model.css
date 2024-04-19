@@ -1,23 +1,50 @@
 .model{
-    height: 2500px;
+    height: auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-family: 'Raleway', sans-serif;
+}
+.model > h1{
+    width: 100%;
+    text-align: center;
 }
 .model__list{
+    /* padding: 25px; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    /* gap: 3rem; */
     flex-wrap: wrap;
+    align-items: stretch;
     gap: 0;
     height: 100%;
     width: 100%;
 }
 .model__list__car{
     color: white;
-    height: 300px;
+   width: 27%;
     padding: 50px;
-    /* width: 50vw; */
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 4/3;
     background-repeat: no-repeat;
    object-fit: cover;
     background-image: url('../../images/porsche718.webp');
+}
+.model__list__car:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#p911{
+    background-image: url('../../images/porsche911.webp');
+}
+#pTaycan{
+    background-image: url('../../images/porschetaycan.webp');
+}
+#pCayenne{
+    background-image: url('../../images/porschecayenne.webp');
+}
+#pMacan{
+    background-image: url('../../images/porschemacan.webp');
+}
+#pPanamera{
+    background-image: url('../../images/porschepanamera.webp');
 }
