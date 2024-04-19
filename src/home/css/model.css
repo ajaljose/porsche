@@ -1,0 +1,23 @@
+.model{
+    height: 2500px;
+}
+.model__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0;
+    height: 100%;
+    width: 100%;
+}
+.model__list__car{
+    color: white;
+    height: 300px;
+    padding: 50px;
+    /* width: 50vw; */
+    aspect-ratio: 4 / 3;
+    background-repeat: no-repeat;
+   object-fit: cover;
+    background-image: url('../../images/porsche718.webp');
+}
