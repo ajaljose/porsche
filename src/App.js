@@ -12,6 +12,7 @@ import { useState } from "react";
 import About from "./about/About";
 import Gallery from "./gallery/Gallery";
 import Model from "./home/model";
+import ModelDetail from "./home/ModelDetail";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const images = [
   "https://files.porsche.com/filestore/image/middle-east/none/homepage-banner-india/normal/c2e54b1f-9285-11e9-80c4-005056bbdc38/porsche-normal.jpg",
@@ -45,7 +46,14 @@ function App() {
   else if (page == "model"){
     component = (
       <>
-        <Model />
+        <Model setPage={setPage}/>
+      </>
+    );
+  }
+  else if (page == "modeldetails"){
+    component = (
+      <>
+        <ModelDetail />
       </>
     );
   }

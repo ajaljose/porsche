@@ -1,0 +1,26 @@
+.model__hero{    
+    height: 35rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:linear-gradient(45deg,
+    rgba(250, 163, 6,0.275),
+    rgba(255, 0, 0, 0.275)), url('../../images/718hero_xm.jpg');
+    background-size: auto 40rem;
+}
+.model__hero h1{
+    font-size: 150px;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+}
+.model__about{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;align-items: center;
+}
+.model__about p{
+    padding: 0px 250px 30px 250px;
+  text-align: center;
+  
+  font-weight: bolder;
+}
