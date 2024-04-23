@@ -4,20 +4,23 @@
     /* border-style: solid ;
     border-color: black ; */
    border-radius: 8px;
-   color:#edf2f4;
+   color:#000000;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    background-color: #00000062;
 }
 .right-navbar td:hover{
-    background-color: #8d99ae;
+    background-color: #353535;
     color:#ffffff;
     cursor: pointer;
 }
 .right-navbar td:active {
-            background-color: #687285;
+            background-color: #000000;
         }
 .right-navbar {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  /* border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px; */
     padding: 55px 20px;
     z-index: 2000;
     position: fixed;
@@ -25,7 +28,7 @@
     right: -320px;
     bottom: 0;
     width: 200px; /* adjust this width to your preference */
-    background-color: #2b2d42; /* change this to the background color you want */
+    background-color: #ffffff; /* change this to the background color you want */
     box-shadow: 0 12px 15px rgba(53, 52, 52, 0.8); /* add a box shadow for a raised effect */
   }
 

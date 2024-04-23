@@ -20,8 +20,8 @@ function rightNavbar({ page, setPage }) {
   </td>
 </tr>
 
-            <tr><td>Settings 2</td></tr>
-            <tr><td>Settings 3</td></tr>
+            {/* <tr><td>Settings 2</td></tr>
+            <tr><td>Settings 3</td></tr> */}
             <tr onClick={() => handleIncrement('gallery')}><td><div class="horizontal-align">
       <img src={gallery} alt="Icon" />
       <span>Gallery</span>
