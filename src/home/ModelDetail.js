@@ -4,11 +4,11 @@ import p718interior from '../images/porsche718__1.png';
 import p2 from '../images/porsche718__2.jpg';
 import p3 from '../images/porsche718__3.jpg';
 import p4 from '../images/porsche718__4.jpg';
-function ModelDetail() {
+function ModelDetail({model}) {
   return (
     <div className='model__details'>
         <div className='model__hero'>
-            <h1>718</h1>
+            <h1>{model}</h1>
         </div>
         <div className='model__about'>
           <h1>About</h1>
@@ -33,6 +33,7 @@ function ModelDetail() {
           <p>The Porsche 718 lineup boasts power figures that ignite the senses and quicken the pulse. With its turbocharged engines, the 718 Cayman and Boxster deliver a thrilling performance on every drive. The entry-level models come equipped with a potent 2.0-liter flat-four engine, generating around 300 horsepower, while the S variants ramp up the excitement with a 2.5-liter turbocharged flat-four, pushing out over 350 horsepower. These powerplants, finely tuned by Porsche engineers, propel the 718 lineup with precision and exhilaration, ensuring each twist of the road is met with a surge of adrenaline. </p>
         </div>
         <div className='model__gallery'>
+          <h1>Gallery</h1>
           <img src={p2}></img>
           <img src={p718interior}></img>
           <img src={p3}></img>

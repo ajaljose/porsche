@@ -21,6 +21,7 @@ const images = [
 ];
 function App() {
   const [page, setPage] = useState("home");
+  const [model, setModel] = useState("");
   let component;
   if (page == "about") {
     component = (
@@ -46,14 +47,14 @@ function App() {
   else if (page == "model"){
     component = (
       <>
-        <Model setPage={setPage}/>
+        <Model setPage={setPage}setModel={setModel}/>
       </>
     );
   }
   else if (page == "modeldetails"){
     component = (
       <>
-        <ModelDetail />
+        <ModelDetail model={model}/>
       </>
     );
   }

@@ -12,6 +12,8 @@
     font-size: 150px;
     color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 4px 3px 6px rgba(0, 0, 0, 1);
 }
 .model__about{
     padding: 100px;
@@ -78,9 +80,15 @@ h1{
     background-color: #52b788;
 }
 .model__gallery{
+    background-color: #ffffffbc;
     display: flex;
     flex-direction: column;
 
+}
+.model__gallery h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin:70px 0 70px 0;
 }
 .model__gallery img{
     height: 700px;
