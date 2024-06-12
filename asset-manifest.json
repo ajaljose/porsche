@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/porsche/static/css/main.58891c15.css",
+    "main.js": "/porsche/static/js/main.05367409.js",
+    "static/media/porsche718__1.png": "/porsche/static/media/porsche718__1.e2d27fb65c7759f089be.png",
+    "static/media/taycanturbos3.png": "/porsche/static/media/taycanturbos3.69615701ed7dead835ce.png",
+    "static/media/porsche718__4.jpg": "/porsche/static/media/porsche718__4.1ad7e1bb7a97f6a4a74c.jpg",
+    "static/media/porsche718__2.jpg": "/porsche/static/media/porsche718__2.719e860d6d82306f22d1.jpg",
+    "static/media/porschelogo.png": "/porsche/static/media/porschelogo.927e873545eded94b89c.png",
+    "static/media/718hero_xm.jpg": "/porsche/static/media/718hero_xm.dcbe46dc1e48b13b5dab.jpg",
+    "static/media/porsche718__3.jpg": "/porsche/static/media/porsche718__3.1a1a7147c4c1249ac66c.jpg",
+    "static/media/porschecayenne.webp": "/porsche/static/media/porschecayenne.5d3be0c6c828b25a94a3.webp",
+    "static/media/porsche718.webp": "/porsche/static/media/porsche718.89f590673e793088e7b1.webp",
+    "static/media/porsche911.webp": "/porsche/static/media/porsche911.9b6ab5c11e0e870a370b.webp",
+    "static/media/porschemacan.webp": "/porsche/static/media/porschemacan.80182b7354afd017cfd3.webp",
+    "static/media/gallery.png": "/porsche/static/media/gallery.66583bfaea39c1509f4d.png",
+    "static/media/porschepanamera.webp": "/porsche/static/media/porschepanamera.9d77d1a2fe0fa74ee37c.webp",
+    "static/media/porschetaycan.webp": "/porsche/static/media/porschetaycan.e921c722a04ce799142a.webp",
+    "index.html": "/porsche/index.html",
+    "main.58891c15.css.map": "/porsche/static/css/main.58891c15.css.map",
+    "main.05367409.js.map": "/porsche/static/js/main.05367409.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58891c15.css",
+    "static/js/main.05367409.js"
+  ]
+}
