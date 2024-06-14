@@ -115,3 +115,8 @@ footer td {
 footer p {
   text-align: justify;
 }
+@media (max-width: 800px) {
+.text-justify{
+  display: none;
+}
+}

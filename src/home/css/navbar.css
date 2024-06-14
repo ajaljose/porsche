@@ -47,3 +47,8 @@
   align-items: center;
   justify-content: space-around;
 }
+@media (max-width: 800px) {
+  .nav{
+    width: 80vw;
+  }
+}

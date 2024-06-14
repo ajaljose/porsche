@@ -21,6 +21,20 @@
     height: 100%;
     width: 100%;
 }
+@media (max-width: 800px) {
+    .model__list{
+        /* padding: 25px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* gap: 3rem; */
+        flex-wrap: wrap;
+        align-items: stretch;
+        gap: 0;
+        height: 100%;
+        width: 100%;
+    }
+  }
 .model__list__car{
     color: white;
    width: 27%;
@@ -30,6 +44,11 @@
    object-fit: cover;
     background-image: url('../../images/porsche718.webp');
     transition: transform 0.3s ease;
+}
+@media (max-width: 800px){
+   .model__list__car{
+    width: 75%;
+   }
 }
 .model__list__car:hover {
     transform: scale(1.05); /* Increase the scale factor to zoom in more */
