@@ -6,6 +6,11 @@
     font-family: 'Raleway', sans-serif;
     background-color: rgb(215, 236, 255);
 }
+@media (max-width: 800px){
+  .about {
+    padding: 5px 13px 13px 13px;
+}
+}
 body{
   background-color: rgb(215, 236, 255);
   margin: 0;
@@ -24,13 +29,23 @@ body{
     text-align: center;
     padding-bottom: 50px;
 }
-
+@media (max-width: 800px){
+  .about p{
+    width: 300px;
+}
+}
 .input-container {
     position: relative;
     margin: 50px auto;
     width: 50%;
   }
-  
+  @media (max-width: 800px){
+    .input-container {
+      position: relative;
+      margin: 5px 5px;
+      width: 90%;
+    }
+  }
   .input-container input[type="text"] {
     font-size: 20px;
     width: 100%;

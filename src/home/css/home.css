@@ -12,6 +12,12 @@
   background-color: #eae2b78a;
   overflow: hidden; /* Add this to hide content outside the .car div */
 }
+@media (max-width: 800px) {
+  .car{
+    height: 40vh;
+  }
+  
+}
 .car img {
   width: 46%;
 }
@@ -29,19 +35,43 @@
   /* background-color: #ccc; */
   z-index: -20;
 }
+@media (max-width: 800px) {
+  .background {
+
+    height: calc(150% - 100px);
+    width:500px;
+  }
+}
 #bgStrip {
   position: absolute; /* Add this to position the SVG inside .car */
   left: 30%;
   top: 50%; /* Adjust the top value to position the SVG as desired */
   transform: translateY(-50%); /* Add this to vertically center the SVG */
 }
-
+@media (max-width: 800px) {
+  
+  #bgStrip {
+    position: absolute; /* Add this to position the SVG inside .car */
+    left: 0%;
+    top: 50%; /* Adjust the top value to position the SVG as desired */
+    transform: translateY(-50%); /* Add this to vertically center the SVG */
+  }
+}
 #year p{
   margin: -50px;
   opacity: 0.12;
   font-family: "Oswald", sans-serif;
   font-size: 15em;
   text-shadow: 0 0 48px rgba(0, 0, 0, 1);
+}
+@media (max-width: 800px) {
+  #year p{
+    margin: -50px;
+    opacity: 0.12;
+    font-family: "Oswald", sans-serif;
+    font-size: 8em;
+    text-shadow: 0 0 48px rgba(0, 0, 0, 1);
+  }
 }
 #contact {
   transform: rotate(270deg);
